@@ -83,6 +83,7 @@ ul {
 li {
     display: list-item;
     text-align: -webkit-match-parent;
+    margin-right: 2rem;
 }
 
 .nav-list a {
