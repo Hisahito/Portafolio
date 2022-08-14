@@ -160,6 +160,12 @@ h1, h2 {
     color: var(--main-red);
 }
 
+@media (max-width: 28.75em){
+    .welcome-section > p {
+        text-align: center;
+    }
+}
+
 p {
     display: block;
     margin-block-start: 1em;
