@@ -123,20 +123,20 @@ a {
     background-image: rgba(50,50,50,255);
 }
 
-.hisahito{
+.welcome-section > img{
     position: absolute;
-    left: 130px;
-    top: 300px;
+    left: center;
+    top: 500px;
     width: 15%;
     height: 15%;
     border-radius: 60%;
 }
 
 @media (max-width: 1053px){
-    .hisahito{
+    .welcome-section > img{
         position: absolute;
-        left: 50%;
-        top: 130px;
+        left: center;
+        top: 500px;
         width: 15%;
         height: 15%;
         border-radius: 60%;
@@ -245,6 +245,15 @@ img {
 .project:hover .code{
     color: #00f410;
 }
+
+#code1::after {
+    content: "<";
+}
+
+#code2::before {
+    content: "/>";
+}
+
 
 .btn-show-all {
     font-size: 2rem;
