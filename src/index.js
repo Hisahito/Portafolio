@@ -1,5 +1,5 @@
-// import { saludar } from './js/componentes';
-// import './style.css';
+ import { saludar } from './js/componentes';
+ import './style.css';
 /*
 const project = document.querySelector('#proyecto');
 
