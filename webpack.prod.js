@@ -4,12 +4,14 @@ const copyPlugin = require('copy-webpack-plugin');
 
 const CssMinimizer = require('css-minimizer-webpack-plugin')
 const Terser = require('terser-webpack-plugin')
+const path = require('path');
 
 module.exports = {
 
     mode: 'production',
 
     output: {
+        path: path.resolve(__dirname, 'docs'),
         clean: true,
         filename: 'main.[contenthash].js'
     },
